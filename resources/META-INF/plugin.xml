@@ -1,0 +1,29 @@
+<idea-plugin version="2">
+  <id>gradle_cleaner_intellij_plugin</id>
+  <name>Gradle Cleaner</name>
+  <version>1.0</version>
+  <vendor email="kbiakov@gmail.com" url="https://github.com/Softwee">Softwee</vendor>
+
+  <description>
+    <![CDATA[
+      Cancel &amp; clean all Gradle tasks. Also clean project from related build garbage.<br/>
+      <br/>
+      <a href="http://tinypic.com?ref=30ud9ty" target="_blank"><img src="http://i66.tinypic.com/30ud9ty.png"></a>
+    ]]>
+  </description>
+
+  <idea-version since-build="141.0"/>
+
+  <extensions defaultExtensionNs="com.intellij"/>
+
+  <actions>
+    <action id="clean_action"
+            class="CleanAction"
+            text="Clean Gradle tasks"
+            description="Cancel &amp; clean all Gradle tasks"
+            icon="/icons/icon.png">
+      <add-to-group group-id="MainToolBar" anchor="last"/>
+    </action>
+  </actions>
+
+</idea-plugin>
