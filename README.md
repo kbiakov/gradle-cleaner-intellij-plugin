@@ -5,6 +5,9 @@ Force clear delaying & annoying Gradle tasks.
 ## Description
 Plugin for Intellij IDEA which performs simple commands to roughly clear executing Gradle tasks. It saves developer time, when you completely sure that result of execution current Gradle work is unnecessary and you don't want to wait while Gradle "safe" stops you tasks. Presented plugin solves through force.
 
+## Setup
+Seach & install <b>Gradle Cleaner</b> from Intellij IDEA plugin browser.
+
 ## Usage
 Click on toolbar button:
 
