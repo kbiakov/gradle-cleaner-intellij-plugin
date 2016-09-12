@@ -6,7 +6,9 @@ Force clear delaying & no longer needed Gradle tasks.
 Plugin for Intellij IDEA which performs simple commands to roughly clear executing Gradle tasks. It saves developer time, when you completely sure that result of execution current Gradle work is unnecessary and you do not want to wait while Gradle "safely" stops you tasks. Presented plugin solves through force & then clean build garbage.
 
 ## Installation
-Seach & install <b>Gradle Cleaner</b> from Intellij IDEA plugin browser.
+Seach & install <b>Gradle Cleaner</b> from Intellij IDEA plugins browser.
+
+Also you can download ```.jar```-file [here](https://plugins.jetbrains.com/plugin/8614) and install plugin from disk (see [instructions](https://www.jetbrains.com/help/idea/2016.2/installing-plugin-from-disk.html)).
 
 ## Usage
 Click on toolbar button:
