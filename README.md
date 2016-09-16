@@ -1,5 +1,7 @@
 # gradle-cleaner-intellij-plugin
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-gradle--cleaner--intellij--plugin-green.svg?style=true)](https://android-arsenal.com/details/1/4344)
+
 Force clear delaying & no longer needed Gradle tasks.
 
 ## Description
