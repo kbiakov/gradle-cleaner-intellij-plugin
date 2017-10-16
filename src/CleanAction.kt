@@ -12,10 +12,10 @@ class CleanAction : AnAction() {
     // event handler (on toolbar icon clicked)
     override fun actionPerformed(event: AnActionEvent) {
         event.project?.basePath?.let {
-            val runtime = Runtime.getRuntime()
-            val command = it + "/gradlew "
-            runtime.exec(command + "--stop")
-            runtime.exec(command + "clean ")
+            Runtime.getRuntime().apply {
+                exec("$it/gradlew --stop")
+                exec("$it/gradlew clean ")
+            }
         }
     }
 }

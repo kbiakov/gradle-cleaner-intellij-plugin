@@ -2,7 +2,7 @@
   <id>gradle_cleaner_intellij_plugin</id>
   <name>Gradle Cleaner</name>
   <version>1.0</version>
-  <vendor email="kbiakov@gmail.com" url="https://github.com/Softwee">Softwee</vendor>
+  <vendor email="kbiakov@gmail.com" url="https://github.com/kbiakov">Kirill Biakov</vendor>
 
   <description>
     <![CDATA[
